@@ -12,7 +12,7 @@ namespace MedicalOfficeUWP.Utilities
     public static class Jeeves
     {
         //For Local API for Debugging 
-        //public static Uri DBUri = new Uri("https://localhost:7166/");
+        //public static Uri DBUri = new Uri("https://localhost:Addyours#/");
 
         //For Azure
         public static Uri DBUri = new Uri("https://medicalofficewebapi.azurewebsites.net");
