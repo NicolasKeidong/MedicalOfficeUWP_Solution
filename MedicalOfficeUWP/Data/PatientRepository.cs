@@ -21,7 +21,7 @@ namespace MedicalOfficeUWP.Data
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
-        public async Task<Patient> GetPatientById(int ID)
+        public async Task<Patient> GetPatient(int ID)
         {
             HttpResponseMessage response = await client.GetAsync($"api/patients/history/{ID}");
             if (response.IsSuccessStatusCode)

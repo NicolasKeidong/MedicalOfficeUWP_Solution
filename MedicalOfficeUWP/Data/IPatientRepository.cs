@@ -10,7 +10,7 @@ namespace MedicalOfficeUWP.Data
     public interface IPatientRepository
     {
         Task<List<Patient>> GetPatients();
-        Task<Patient> GetPatientById(int ID);
+        Task<Patient> GetPatient(int ID);
         Task<List<Patient>> GetPatientsByDoctor(int DoctorID);
 
         Task AddPatient(Patient patientToAdd);

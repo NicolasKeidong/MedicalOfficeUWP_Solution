@@ -24,7 +24,14 @@ namespace MedicalOfficeUWP.Models
         {
             get
             {
-                return " " + Conditions.Count.ToString() + " Conditions in Medical History";
+                if (Conditions != null)
+                {
+                    return " " + Conditions.Count.ToString() + " Conditions in Medical History";
+                }
+                else
+                {
+                    return "No Medical History";
+                }
             }
         }
 
@@ -32,7 +39,7 @@ namespace MedicalOfficeUWP.Models
         {
             get
             {
-                if(Conditions.Count > 0) 
+                if(Conditions != null) 
                 { 
                     return string.Join(", ", Conditions.Select(x => x.ConditionName));
                 }
