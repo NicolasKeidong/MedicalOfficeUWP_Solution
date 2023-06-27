@@ -11,7 +11,7 @@ namespace MedicalOfficeUWP.Data
     {
         Task<List<Patient>> GetPatients();
         Task<Patient> GetPatientById(int ID);
-        Task<List<Patient>> GetPatientsByDoctor(int ID);
+        Task<List<Patient>> GetPatientsByDoctor(int DoctorID);
 
         Task AddPatient(Patient patientToAdd);
         Task UpdatePatient(Patient patientToUpdate);
