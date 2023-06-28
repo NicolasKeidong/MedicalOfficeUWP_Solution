@@ -11,6 +11,8 @@ Just run the application, the connection with the API is already in place. Impor
 ![Home](https://github.com/NicolasKeidong/MedicalOfficeUWP_Solution/assets/122652469/53947654-1753-42bf-a47d-36d613039cd5)
 ![Add new Patient](https://github.com/NicolasKeidong/MedicalOfficeUWP_Solution/assets/122652469/0414d53e-3191-4ff8-9761-93867e209108)
 
+![Add new Patient](https://github.com/NicolasKeidong/MedicalOfficeUWP_Solution/assets/122652469/0414d53e-3191-4ff8-9761-93867e209108)
+
 Note: If you want to use this UWP app as a base file to consume a different API(locally or online), just comment out the line of code located in Jeeves file(Utilities/Jeeves), you are going to have to modify the logic and Models as well.
 
 ``` C#
