@@ -27,7 +27,7 @@ public static Uri DBUri = new Uri("https://medicalofficewebapi.azurewebsites.net
 ```
 
 ## Additional notes
-At the moment, I don't have future plans for this project, but if I change my mind I will update this file, on the other hand, if you want to contribute to it, please do, thank you.
+At the moment, I don't have future plans for this project which is why there is no guide on how to contribute to this project, but if I change my mind I will update this file, thank you for your understanding.
 I hope that this small project helps you in your learning process, keep coding, you got this! :muscle:
 
 Lastly, the credits of the background image used in this app correspond to [Martha Dominguez de Gouveia](https://unsplash.com/photos/nMyM7fxpokE) 
